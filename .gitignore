@@ -1,0 +1,25 @@
+# Ignore UiPath project files
+*.uipx
+*.uipxproj
+*.uipkg
+*.nupkg
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore NuGet packages
+*.nupkg
+
+# Ignore executable files
+*.exe
+
+# Ignore dynamic link libraries
+*.dll
+
+# Ignore program database files
+*.pdb
+
+# Ignore screenshots folder
+.screenshots/
+idea/
