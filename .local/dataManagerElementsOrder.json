@@ -12,10 +12,22 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "PrintSuccess&Sequence_1",
-        "Now&Sequence_1"
+        "CurrentTime&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ReadData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ProjectPath&Sequence_8",
+        "dt_Products&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_CurrentTime"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
@@ -23,11 +35,13 @@
       "Path": "DetailsExtraction.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "ProjectPath&Sequence_2",
-        "dt_Products&Sequence_3",
-        "dt_ExtractedDataTable&Sequence_4"
+        "dt_ExtractedDataTable&Sequence_2"
       ],
-      "ArgumentsSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_ProjectPath",
+        "in_CurrentTime",
+        "in_dt_Products"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
